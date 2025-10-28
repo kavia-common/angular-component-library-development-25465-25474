@@ -1,0 +1,14 @@
+{
+  "name": "@ocean/ui",
+  "version": "0.1.0",
+  "description": "Ocean UI Angular component library (Ocean Professional theme)",
+  "private": false,
+  "license": "MIT",
+  "type": "module",
+  "peerDependencies": {
+    "@angular/common": "19.2.0",
+    "@angular/core": "19.2.0",
+    "@angular/forms": "19.2.0"
+  },
+  "sideEffects": false
+}

@@ -1,0 +1,39 @@
+/**
+ * Ocean Professional design tokens (SCSS variables)
+ * Colors and spacing tokens derived from the styleThemeData.
+ */
+$ocean-primary: #374151;   // primary
+$ocean-secondary: #9CA3AF; // secondary
+$ocean-success: #10B981;   // success
+$ocean-error: #EF4444;     // error
+$ocean-surface: #F9FAFB;   // surface
+$ocean-background: #FFFFFF;// background
+$ocean-text: #111827;      // text
+
+// Neutrals
+$ocean-muted: #6B7280;
+$ocean-divider: #E5E7EB;
+
+// Typography
+$ocean-font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+// Radii
+$ocean-radius-sm: 6px;
+$ocean-radius-md: 8px;
+
+// Spacing
+$ocean-space-1: 4px;
+$ocean-space-2: 8px;
+$ocean-space-3: 12px;
+$ocean-space-4: 16px;
+$ocean-space-6: 24px;
+
+// Elevation
+$ocean-shadow-1: 0 1px 2px rgba(0,0,0,0.06);
+$ocean-shadow-2: 0 10px 20px rgba(0,0,0,0.08);
+
+// Utility mixins
+@mixin focus-ring {
+  outline: 2px solid $ocean-primary;
+  outline-offset: 2px;
+}

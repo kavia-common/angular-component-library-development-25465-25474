@@ -13,7 +13,6 @@
       // popover?.setAttribute('aria-hidden', 'true');
     } catch (e) {
       // Fail-safe: do not throw to avoid breaking host page
-      // eslint-disable-next-line no-console
       console.warn('Screen 87 init encountered a non-fatal issue:', e);
     }
   }
